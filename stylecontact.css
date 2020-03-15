@@ -1,0 +1,185 @@
+body {padding-top:20px;}
+
+
+* {box-sizing: border-box;}
+
+header {
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    height: 30vh;
+  }
+
+   h2 {
+    margin-top: 40px;
+    font-size: 70px;
+    font-weight: 1000;
+    color: black;
+    text-align: center;
+    letter-spacing:8px;
+    font-family: 'Dancing Script', Georgia, Times, serif;
+    
+   }
+    
+   h3  {
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+    text-align: left;
+    margin-right: 40px;
+    margin-left: 50px;
+   }
+
+   p {
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 10px;
+    text-align: left;
+    margin-right: 40px;
+    margin-left: 50px;
+   }
+
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .second{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-bottom: 50px;
+    }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-weight: 1000;
+    color: #c48647;
+    text-align: center;
+    letter-spacing:8px;
+    font-family: 'Dancing Script', Georgia, Times, serif;
+  }
+
+  .car{
+      width: 70%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+ 
+
+  .column {
+    display: block;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 40%;
+    margin-bottom: 50px;
+    float: center;
+    padding: 10px;
+    height: 120vh;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #eacd98;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #eacd98;
+}
+
+.container-fluid {
+    background-image: url(img/an.png);
+  width:90%;
+  border-radius: 5px;
+  padding: 20px;
+  background-blend-mode: overlay;
+}
+
+.footer {
+ 
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: 	#c48647;
+  color: white;
+  text-align: center;
+}
+
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 50%;
+
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+
+}
+
+.fa-google {
+background: #dd4b39;
+color: white;
+
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+
+
+
+}
